@@ -1,0 +1,20 @@
+{
+  "name": "trevor.evans",
+  "version": "0.0.0",
+  "authors": [
+    "Meitham Jamaa <m@meitham.com>"
+  ],
+  "description": "Trevor site",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.2"
+  }
+}
