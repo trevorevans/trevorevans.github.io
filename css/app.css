@@ -1,9 +1,28 @@
-@font-face {
-  font-family: Helvetica;
-  src: local("Helvetica Neue Bold"),
-       local("HelveticaNeue-Bold"),
-       url(MgOpenModernaBold.ttf);
-  font-weight: bold;
+
+header h1 {
+	font-family: Georgia;
+	font-weight: normal;
+	// line-height: 120px;
+	font-size: 36px;
+	letter-spacing: .3em;
+	font-kerning: none;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+header h2 {
+	font-family: Georgia;
+	font-weight: normal;
+	font-size: 2em;
+	letter-spacing: .4em;
+	text-align: center;
+	text-transform: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #5F2D8C;
+	font-family: 'Alegreya Sans', sans-serif;
 }
 
 footer {
@@ -27,12 +46,6 @@ footer {
 .button:hover, .button:focus {
 	background-color: #462065;
 }
-header h2 {
-	font-weight: normal;
-	padding-top: 1em;
-	font-size: 2em;
-	text-transform: none;
-}
 .panel {
 	font-style: italic;
 	font-family: Georgia, serif;
@@ -42,10 +55,6 @@ header h2 {
 }
 .bottomspace {
 	margin-bottom: 2em;
-}
-h1, h2, h3, h4, h5, h6 {
-	color: #5F2D8C;
-	font-family: 'Alegreya Sans', sans-serif;
 }
 
 /* chapter 3 styling challenge */
